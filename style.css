@@ -1,0 +1,187 @@
+body {
+  background-color: rgb(38, 38, 116);
+  font-family: Arial;
+}
+
+h2 {
+  color: #ff0a54;
+  text-align: center;
+}
+
+h3 {
+  margin: 7%;
+  color: white;
+  text-align: center;
+}
+
+#song {
+  display: block;
+  margin: 0 auto;
+}
+
+div.petalo {
+  background-color: #f7c20f;
+  border-radius: 40px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+#centro {
+  background-color: #8c5f12;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nombre {
+  font-size: larger;
+  font-size: 24px;
+  color: white;
+}
+
+#tallo {
+  width: 15px;
+  height: 190px;
+  background-color: #006c67;
+  margin-top: -100px;
+  margin-left: 145px;
+}
+#hoja {
+  background-color: #006c67;
+  border-radius: 15px 0px 15px 0px;
+  width: 30px;
+  height: 30px;
+  margin-left: 160px;
+  margin-top: -90px;
+  position: absolute;
+}
+
+#flor {
+  width: 300px;
+  height: 300px;
+  background-color: transparent;
+  position: relative;
+}
+#p1 {
+  top: 70px;
+  left: 40px;
+}
+#p2 {
+  top: 40px;
+  left: 110px;
+}
+#p3 {
+  top: 70px;
+  left: 180px;
+}
+#p4 {
+  top: 145px;
+  left: 44px;
+}
+#p5 {
+  top: 180px;
+  left: 114px;
+}
+#p6 {
+  top: 140px;
+  left: 180px;
+}
+
+#p7 {
+  top: 190px;
+  left: 165px;
+  border-radius: 0px 15px 15px 30px;
+  width: 50px;
+  height: 50px;
+}
+
+#p8 {
+  top: 130px;
+  left: 216px;
+  border-radius: 15px 30px 15px 40px;
+  width: 50px;
+  height: 50px;
+  transform: rotate(-90deg);
+}
+
+#p9 {
+  top: 55px;
+  left: 160px;
+  border-radius: 15px 30px 15px 40px;
+  width: 50px;
+  height: 50px;
+  transform: rotate(-100deg);
+}
+
+#p10 {
+  top: 55px;
+  left: 80px;
+  border-radius: 15px 30px 15px 40px;
+  width: 50px;
+  height: 50px;
+  transform: rotate(200deg);
+}
+
+#p11 {
+  top: 120px;
+  left: 40px;
+  border-radius: 15px 30px 15px 40px;
+  width: 50px;
+  height: 50px;
+  transform: rotate(320deg);
+}
+
+#p12 {
+  top: 195px;
+  left: 85px;
+  border-radius: 15px 30px 15px 40px;
+  width: 50px;
+  height: 50px;
+  transform: rotate(75deg);
+}
+
+#figura {
+  position: relative;
+  background-color: transparent;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  margin: auto;
+}
+#cesped {
+  position: absolute;
+  width: 394px;
+  position: absolute;
+  bottom: 0px;
+}
+.manga {
+  background: #34ad50;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+.fondo_manga {
+  background: #34ad50;
+  height: 50px;
+  left: -10px;
+  position: absolute;
+  top: 26px;
+  width: 394px;
+}
